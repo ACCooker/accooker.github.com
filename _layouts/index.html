@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+﻿---
+=======
+---
+>>>>>>> 95a1a8e0069b596423ddfcc742850ea1249da271
+layout: default
+---
+
+<div class="article-list">
+	{{ content }}
+</div>
+
+<aside class="aside">
+	<div>
+		<h3>分类</h3>
+		<ul>
+			{% for category in site.categories %}
+			<li><a href="/category.html#{{category[0]}}">{{category[0]}} ({{category[1] | size}})</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div>
+		<h3>友情链接</h3>
+		<ul>
+<<<<<<< HEAD
+			<li><a href="http://blog.csdn.com/qiurisuixiang" target="_blank">accooker's CSDN博客</a></li>
+=======
+			<li><a href="http://blog.csdn.com/qiurisuixiang" target="_blank">hahaya's CSDN博客</a></li>
+>>>>>>> 95a1a8e0069b596423ddfcc742850ea1249da271
+		</ul>
+	</div>
+</aside>
